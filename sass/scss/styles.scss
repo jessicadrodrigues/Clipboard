@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    //width:1440px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color:#fff;
+    header{
+        padding-top: 202px;
+        background-image: url("/images/bg-header-desktop.png");
+        background-size: cover;
+        height:100vh;
+        width:100%;
+        text-align: center;
+        
+        .top{
+            
+            font-size: 20px;
+               // color: Cyan: hsl(171, 66%, 44%)
+            h1{
+                font-size: 60px;
+                padding-top: 40px;
+                margin:20px;
+                color:#4c5457;
+            }
+            p{
+                font-size:30px;
+                padding: 7px 0 40px 0;
+                margin:20px;
+                line-height: 45px;
+                color:#a4a9ad;
+            }
+
+            img{
+                
+                width:176px;
+            }
+            .bottom{
+                color:#fff;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding:20px;
+                //background-color: #5dccbb;
+                height:56px;
+
+
+                .bottom-1{
+                    border-radius: 39px;
+                    margin:20px;
+                    padding:22px 32px;
+                    background-color: #5dccbb;
+                    bottom:50px;
+                    border-style: solid;
+                    border: 20px;
+                    border-color: red;
+                }
+                .bottom-2{
+                    border-radius: 39px;
+                    margin:20px;
+                    padding:22px 32px;
+                    background-color: #8896ff;
+                    bottom:50px;
+                    border-style: solid;
+                    border: 20px;
+                    border-color: red;
+                }
+                
+            }
+        }
+        
+    }
+}
