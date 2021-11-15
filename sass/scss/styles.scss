@@ -193,5 +193,109 @@ body{
             }
         }
     }
+
+    .download{
+        height:53vh;
+        padding-top:140px;
+
+        .clipboard{
+            text-align: center;
+
+            h2{
+                font-size:40px;
+                color:#4c5457;
+                padding:20px 0;
+                
+            }
+            p{
+                font-size:18px;
+                color:#a4a9ad;
+                line-height: 25px;
+                padding-bottom:55px ;
+            }
+        }
+        .bottom2{
+            color:#fff;
+            font-weight: 600;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding:20px;
+            //background-color: #5dccbb;
+            height:56px;
+
+
+            .bottom-1{
+                border-radius: 39px;
+                margin:20px;
+                padding:22px 32px;
+                background-color: #5dccbb;
+                bottom:50px;
+                border-style: solid;
+                border: 20px;
+                border-color: red;
+            }
+            .bottom-2{
+                border-radius: 39px;
+                margin:20px;
+                padding:22px 32px;
+                background-color: #8896ff;
+                bottom:50px;
+                border-style: solid;
+                border: 20px;
+                border-color: red;
+            }
+            
+        }
+    }
+
+    footer{
+       display:flex;
+       //justify-content: space-around;
+       //height:20vh;
+       padding: 0 0 57px 122px;
+       background-color: #f5f6f8;
+
+       .logo{
+           
+            
+        img{
+            width:50%;
+            padding-top:40px;
+        }
+        
+       }
+       .menu{
+            display:flex;
+            align-items: center;
+            padding-left:40px;
+            width:70%;
+           ul{
+            padding-top:40px;
+               li{
+                    font-size:19px;
+                    color:#4c5457;
+                    padding: 22px 0 0 52px;
+                   width:100%;
+                   list-style: none;
+               }
+           }
+       } 
+       .social-media{
+        padding-top:40px;
+           display: flex;
+           align-items: center;
+           justify-content: flex-end;
+            //padding-left:992px;
+            width:200px;
+
+            img{
+                padding-left:28px;
+            }
+            
+       }
+
+    }
 }
 
